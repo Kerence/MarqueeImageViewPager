@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <com.kimi.marqueeimageviewpager.MarqueeImageViewPager
+            android:id="@+id/mivp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.kimi.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+
+        <ToggleButton
+            android:id="@+id/tb_autoscroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOff="enable auto scroll"
+            android:textOn="disable auto scroll" />
+
+        <ToggleButton
+            android:id="@+id/tb_reverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOff="scroll right"
+            android:textOn="scroll left" />
+
+        <Button
+            android:id="@+id/tb_randomInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="random scroll interval"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <ToggleButton
+        android:id="@+id/tb_consecutive_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="enable consective scroll"
+        android:textOn="disable consective scroll" />
+
+    <ToggleButton
+        android:id="@+id/tb_imageClickListener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="enable imageClickListener"
+        android:textOn="disable imageClickListener" />
+
+    <Button
+        android:id="@+id/btn_random_circle_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="random circle style" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="image scale fitCenter" />
+
+        <RadioButton
+            android:id="@+id/rb_centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="image scale centerCrop" />
+
+        <RadioButton
+            android:id="@+id/rb_fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="image scale fitXY" />
+
+        <RadioButton
+            android:id="@+id/rb_centerInside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="image scale centerInside" />
+
+    </RadioGroup>
+</LinearLayout>
