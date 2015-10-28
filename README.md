@@ -1,4 +1,4 @@
 # MarqueeImageViewPager
 With MarqueeImageViewPager, you work with scroll images  effortlessly 
-![image](https://github.com/Kerence/MarqueeImageViewPager.git/trunk/raw/images-folder/1.jpg)
+![](https://github.com/Kerence/MarqueeImageViewPager/blob/master/raw/images-folder/1.jpg)
 
