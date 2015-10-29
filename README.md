@@ -1,5 +1,5 @@
 # MarqueeImageViewPager
-With MarqueeImageViewPager, you work with the prevailing scroll images and circle dot indicator pattern effortlessly, this library benefits from ![universal image loader](https://github.com/nostra13/Android-Universal-Image-Loader), ![viewpagerindicator](https://github.com/JakeWharton/ViewPagerIndicator) (with a bit modification for head-to-end animation bug fix) and ![autoscrollviewpager](https://github.com/angeldevil/AutoScrollViewPager) <br>
+With MarqueeImageViewPager, you work with the prevailing scroll images and circle dot indicator pattern effortlessly, this library benefits from ![universal image loader](https://github.com/nostra13/Android-Universal-Image-Loader), ![viewpagerindicator](https://github.com/JakeWharton/ViewPagerIndicator) (with a bit modification for head-to-end animation bug fix) and ![autoscrollviewpager](https://github.com/Trinea/android-auto-scroll-view-pager) <br>
 ![](https://github.com/Kerence/MarqueeImageViewPager/blob/master/raw/images-folder/1.jpg)
 <br>
 #1.you can set imageview scaletype easily by using:
