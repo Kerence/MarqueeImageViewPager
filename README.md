@@ -1,6 +1,6 @@
 # MarqueeImageViewPager
 With MarqueeImageViewPager, you work with the prevailing scroll images and circle dot indicator pattern effortlessly, this library benefits from ![universal image loader](https://github.com/nostra13/Android-Universal-Image-Loader), ![viewpagerindicator](https://github.com/JakeWharton/ViewPagerIndicator) (with a bit modification for head-to-end animation bug fix) and ![autoscrollviewpager](https://github.com/Trinea/android-auto-scroll-view-pager) <br>
-![](https://github.com/Kerence/MarqueeImageViewPager/blob/master/raw/images-folder/1.jpg)
+![](https://github.com/Kerence/MarqueeImageViewPager/blob/master/raw/images-folder/1.jpg),so you can refer them for detailed functionalities.
 <br>
 #Get started quickly:<br>
 Init Universal ImageLoader with defulat config:
@@ -46,4 +46,8 @@ MarqueeImageViewPager.loadImages(images, new DisplayImageOptions.Builder()
                             .build());
 ```
 ![](https://github.com/Kerence/MarqueeImageViewPager/blob/master/raw/images-folder/2015_10_29_01_51_59~1.gif?raw=true)
-#2.
+#2. enable consecutive head-to-end scroll with the following code:
+```Java
+ mvp.enableInfiniteMarquee(true/false);
+```
+![](https://github.com/Kerence/MarqueeImageViewPager/blob/master/raw/images-folder/2015_10_29_02_06_13.gif?raw=true)
