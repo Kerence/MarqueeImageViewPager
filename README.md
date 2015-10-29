@@ -1,5 +1,5 @@
 # MarqueeImageViewPager
-With MarqueeImageViewPager, you work with the prevailing scroll images and circle dot indicator pattern effortlessly, this library benefits from ![universal image loader](https://github.com/nostra13/Android-Universal-Image-Loader), ![viewpagerindicator](https://github.com/JakeWharton/ViewPagerIndicator) (with a bit modification for head-to-end animation bug fix) and ![autoscrollviewpager](https://github.com/Trinea/android-auto-scroll-view-pager),so you can refer them for detailed functionalities. <br>
+With MarqueeImageViewPager, you work with the prevailing scroll images and circle dot indicator pattern effortlessly. this library benefits from ![universal image loader](https://github.com/nostra13/Android-Universal-Image-Loader), ![viewpagerindicator](https://github.com/JakeWharton/ViewPagerIndicator) (with a bit modification for head-to-end animation bug fix) and ![autoscrollviewpager](https://github.com/Trinea/android-auto-scroll-view-pager),so you can refer them for detailed functionalities. <br>
 ![](https://github.com/Kerence/MarqueeImageViewPager/blob/master/raw/images-folder/1.jpg)
 <br>
 #Get started quickly:<br>
@@ -51,3 +51,4 @@ MarqueeImageViewPager.loadImages(images, new DisplayImageOptions.Builder()
  mvp.enableInfiniteMarquee(true/false);
 ```
 ![](https://github.com/Kerence/MarqueeImageViewPager/blob/master/raw/images-folder/2015_10_29_02_06_13.gif?raw=true)
+# refer to the sample for more apis
