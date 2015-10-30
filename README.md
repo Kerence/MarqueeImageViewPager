@@ -5,7 +5,8 @@ With MarqueeImageViewPager, you work with the prevailing scroll images and circl
 #Get started quickly:<br>
 #how to get this library? 
 there are two ways you can get the library
-1.Fortunately,if you are using android studio for developing android apps,this project has been released on bintray add the following code to you top-level build.gradle   <br>
+1.download it directly from github
+2.Fortunately,if you are using android studio for developing android apps,this project has been released on bintray add the following code to you top-level build.gradle   <br>
 ```Gradle
 allprojects {
     repositories {
