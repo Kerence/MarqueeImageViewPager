@@ -18,7 +18,7 @@ allprojects {
  and add the following code to your module build.gralde dependency
 ```Gradle
 dependencies {
- compile 'com.kimi:marqueeimageview:1.0.2@aar'
+ compile 'com.kimi:marqueeimageview:1.0@aar'
 }
  ```
  to you app 
