@@ -16,7 +16,7 @@ allprojects {
     }
 }
 ```
- and add the following code to your module build.gralde dependency
+ and add the following code to your module build.gradle dependency
 ```Gradle
 dependencies {
     compile 'com.kimi:marqueeimageview:1.0@aar'
