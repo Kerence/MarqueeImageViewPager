@@ -3,6 +3,25 @@ With MarqueeImageViewPager, you work with the prevailing scroll images and circl
 ![](https://github.com/Kerence/MarqueeImageViewPager/blob/master/raw/images-folder/1.jpg)
 <br>
 #Get started quickly:<br>
+#how to get this library? 
+there are two ways you can get the library
+1.Fortunately,if you are using android studio for developing android apps,this project has been released on bintray add the following code to you top-level build.gradle   <br>
+```Gradle
+allprojects {
+    repositories {
+        maven { url "http://dl.bintray.com/kerence/maven"  }
+        mavenCentral()
+        jcenter()
+    }
+}
+```
+ and add the following code to your module build.gralde dependency
+```Gradle
+dependencies {
+ compile 'com.kimi:marqueeimageview:1.0.2@aar'
+}
+ ```
+ to you app 
 Init Universal ImageLoader with defulat config:
 ```Java
  ImageLoader.getInstance().init(ImageLoaderConfiguration.createDefault(context));
