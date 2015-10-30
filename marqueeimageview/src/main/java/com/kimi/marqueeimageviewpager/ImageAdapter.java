@@ -78,8 +78,6 @@ public class ImageAdapter extends PagerAdapter {
 
     @Override
     public Object instantiateItem(ViewGroup view, int position) {
-//        View v = LayoutInflater.from(context).inflate(R.layout.a, null);
-//        ImageView imageView = (ImageView) v.findViewById(R.id.iv);
         ImageView imageView = new ImageView(context);
         ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         imageView.setLayoutParams(lp);
