@@ -10,8 +10,8 @@
                         <string>software-package</string>
                         <key>url</key>
                         <string>
-http://192.168.1.107/b.ipa
-</string>
+                             https://192.168.2.101:4443/a.ipa
+                        </string>
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -20,7 +20,7 @@ http://192.168.1.107/b.ipa
                         <false/>
                         <key>url</key>
                         <string>
-http://61.145.118.194/arer/index.php/jobs/download?icon=512&etag=lkNQTDuqzoAx4RUiTbNHobEUYEuk
+
 </string>
                     </dict>
                     <dict>
@@ -30,22 +30,21 @@ http://61.145.118.194/arer/index.php/jobs/download?icon=512&etag=lkNQTDuqzoAx4RU
                         <false/>
                         <key>url</key>
                         <string>
-http://61.145.118.194/arer/index.php/jobs/download?icon=57&etag=lkNQTDuqzoAx4RUiTbNHobEUYEuk
 </string>
                     </dict>
                 </array>
                 <key>metadata</key>
                 <dict>
                     <key>bundle-identifier</key>
-                    <string>com.a.b</string>
+                    <string>com.tencent.buerkitty</string>
                     <key>bundle-version</key>
-                    <string>6</string>
+                    <string>6.3.9.18</string>
                     <key>kind</key>
                     <string>software</string>
                     <key>subtitle</key>
-                    <string>subtitle</string>
+                    <string>kitty</string>
                     <key>title</key>
-                    <string>title</string>
+                    <string>kitty</string>
                 </dict>
             </dict>
         </array>
